@@ -1,0 +1,7 @@
+id=openssl-android
+name=OpenSSL for Android
+version=3.6.1
+versionCode= # Mmmpp
+author=TheFreeman193
+description=Standalone up-to-date OpenSSL binaries for Android
+updateJson=https://raw.githubusercontent.com/TheFreeman193/openssl-android-module/main/update/module-update-Universal.json

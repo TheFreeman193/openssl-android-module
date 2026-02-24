@@ -1,0 +1,6 @@
+[submodule "GetNDK"]
+	path = GetNDK
+	url = git@github.com:TheFreeman193/GetNDK
+[submodule "src"]
+	path = src
+	url = git@github.com:openssl/openssl

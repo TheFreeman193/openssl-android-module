@@ -1,0 +1,7 @@
+.vscode/
+/out/
+/local/
+/build/
+/build.old*/
+.markdownlint.jsonc
+/ndk/

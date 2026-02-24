@@ -1,0 +1,6 @@
+{
+    "version": "3.6.1",
+    "versionCode": 30601,
+    "zipUrl": "https://github.com/TheFreeman193/openssl-android-module/releases/download/v3.6.1/OpenSSL-3.6.1-Android-1.5-To-7.0-armeabi-v7a.zip",
+    "changelog": "https://raw.githubusercontent.com/TheFreeman193/openssl-android-module/main/CHANGELOG.md"
+}
