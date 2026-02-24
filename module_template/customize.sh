@@ -41,7 +41,7 @@ set_perm "$MODPATH/$TARGET/openssl" root shell 0755 || ui_print "!! WARNING: Una
 ui_print "Cleaning up module bin directory..."
 rm -rf "$MODPATH/bin/"
 
-if grep -q '-Universal.json$' "$MODPATH/module.prop"; then
+if grep -q '-Universal.json' "$MODPATH/module.prop"; then
     ui_print "Change module update URL from Universal to $ABI..."
     sed -i "s/\(module-update-\)Universal\(.json\)/\1$ABI\2/" "$MODPATH/module.prop"
 fi
