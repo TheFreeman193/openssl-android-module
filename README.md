@@ -3,7 +3,7 @@
 Standalone OpenSSL binaries for Android, packaged as Magisk, KernelSU (KSU), and APatch compatible modules.
 
 Some Android editions don't include an OpenSSL command accessible on the command line.
-This module is for those needing to work with OpenSSL databases on the command line but who are unable to use alternatives like the openssl Termux package.
+This module is for those needing to work with OpenSSL certificates and keys on the command line but who are unable to use alternatives like the openssl Termux package.
 
 The module detects the correct architecture and NDK at install. It uses the root overlay to place the openssl binary in an executable directory very commonly in `$PATH` without modifying any real partitions.
 For Android 7.1 and up, this is `/product/bin`, and for older devices it is `/system/bin`.
